@@ -1,10 +1,10 @@
-## 📊 Customer Feedback Analysis Dashboard (Sentify Analysis)
+## Customer Feedback Analysis Dashboard (Sentify Analysis)
 
 This project is an AI-powered web application built using **Streamlit** that analyzes customer reviews and transforms raw textual feedback into meaningful business insights. The main goal is to help businesses understand customer sentiment, identify issues, and make data-driven decisions in real time.
 
 ---
 
-## 🤖 Model & Approach
+## Model & Approach
 
 The core of this system is a machine learning pipeline based on:
 
@@ -16,7 +16,7 @@ The core of this system is a machine learning pipeline based on:
   * **Negative**
   * **Neutral**
 
-### 🔗 Model Files (Loaded from Cloud)
+### Model Files (Loaded from Cloud)
 
 To ensure easy deployment and no local dependency issues, the trained model and vectorizer are hosted online and loaded dynamically:
 
@@ -30,7 +30,7 @@ This approach allows the app to run directly on platforms like Streamlit Cloud w
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. The user uploads a dataset (CSV) containing product reviews
 2. The system automatically:
@@ -43,13 +43,13 @@ This approach allows the app to run directly on platforms like Streamlit Cloud w
 
 ---
 
-## 🧭 Dashboard Navigation & Features
+## Dashboard Navigation & Features
 
 The application is designed with a **step-by-step, user-friendly interface** so even non-technical users can easily interact with it.
 
 ---
 
-### 🟢 Step 1: Data Input
+### Step 1: Data Input
 
 Users can:
 
@@ -60,14 +60,14 @@ The app intelligently adapts to different column names and formats.
 
 ---
 
-### 🟡 Step 2: Product Selection
+### Step 2: Product Selection
 
 If multiple products exist, the user selects one product from a dropdown.
 This ensures **focused and accurate analysis** instead of mixing all products together.
 
 ---
 
-### 🔵 Step 3: KPI Overview
+### Step 3: KPI Overview
 
 Key performance indicators are displayed:
 
@@ -80,7 +80,7 @@ This gives a quick understanding of customer perception.
 
 ---
 
-### 📊 Overview Tab
+### Overview Tab
 
 Provides a high-level summary:
 
@@ -90,7 +90,7 @@ Provides a high-level summary:
 
 ---
 
-### 💡 Insights Tab
+### Insights Tab
 
 This is the **analytical core** of the application:
 
@@ -107,7 +107,7 @@ The system automatically handles:
 
 ---
 
-### 🔤 Text Analysis Tab
+### Text Analysis Tab
 
 Focuses on understanding the actual feedback content:
 
@@ -117,7 +117,7 @@ Focuses on understanding the actual feedback content:
 
 ---
 
-### 🚀 Next Steps (Business Recommendations)
+### Next Steps (Business Recommendations)
 
 Instead of static outputs, the app provides **dynamic AI-driven suggestions**, such as:
 
@@ -129,7 +129,7 @@ This makes the tool **actionable**, not just analytical.
 
 ---
 
-## 🌟 Key Highlights
+## Key Highlights
 
 ✔ Fully dynamic – works with any dataset format
 ✔ No manual column setup required
@@ -140,12 +140,6 @@ This makes the tool **actionable**, not just analytical.
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 This project combines **machine learning, data visualization, and user-centric design** to create a powerful tool for customer feedback analysis. It bridges the gap between raw data and actionable insights, making it highly useful for businesses, analysts, and decision-makers.
-
-* 🔥 A **perfect README.md formatted version (with badges & icons)**
-* 🎤 A **viva explanation script (what to say step-by-step)**
-* 📄 A **report version for submission**
-
-Just tell me 👍
