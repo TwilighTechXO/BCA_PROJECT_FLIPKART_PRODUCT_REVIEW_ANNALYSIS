@@ -75,7 +75,7 @@ model, vectorizer = load_model()
 # ----------------------------
 # SIDEBAR
 # ----------------------------
-st.sidebar.title("Sentify AI")
+st.sidebar.title("Sentify Analysis")
 option = st.sidebar.radio("Data Source", ["Use Sample Data", "Upload CSV"])
 
 # ----------------------------
