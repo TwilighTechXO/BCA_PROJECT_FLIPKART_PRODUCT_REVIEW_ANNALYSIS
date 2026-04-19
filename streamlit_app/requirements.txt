@@ -2,5 +2,6 @@ streamlit
 pandas
 matplotlib
 wordcloud
+streamlit-lottie
+requests
 scikit-learn
-numpy
