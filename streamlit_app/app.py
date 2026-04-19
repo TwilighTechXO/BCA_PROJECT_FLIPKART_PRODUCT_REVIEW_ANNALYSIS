@@ -108,7 +108,7 @@ if df is not None:
     rating_col = next((c for c in df.columns if "rating" in c), None)
     product_col = next((c for c in df.columns if "product" in c or "name" in c), None)
 
-    # 🔥 NEW: PRICE COLUMN AUTO DETECT
+    # NEW: PRICE COLUMN AUTO DETECT
     price_col = next((c for c in df.columns if "price" in c), None)
 
     if review_col is None:
@@ -188,21 +188,21 @@ if df is not None:
             st.pyplot(fig)
 
     # ----------------------------
-    # 🔥 INSIGHTS (UPDATED ONLY)
+    # INSIGHTS (UPDATED ONLY)
     # ----------------------------
     with tab2:
 
-        # 1️⃣ Sentiment vs Rating
+        # Sentiment vs Rating
         if rating_col:
             st.subheader("Sentiment vs Rating")
             st.bar_chart(pd.crosstab(df[rating_col], df["sentiment"]))
 
-        # 2️⃣ Review Length
+        # Review Length
         df["review_length"] = df[review_col].apply(lambda x: len(x.split()))
         st.subheader("Review Length vs Sentiment")
         st.bar_chart(df.groupby("sentiment")["review_length"].mean())
 
-        # 3️⃣ 🔥 NEW: Price Analysis
+        # NEW: Price Analysis
         if price_col:
             st.subheader("Price vs Sentiment")
 
@@ -211,11 +211,11 @@ if df is not None:
             st.subheader("Price Distribution")
             st.line_chart(df[price_col].dropna())
 
-        # 4️⃣ 🔥 NEW: Sentiment Count Trend
+        # NEW: Sentiment Count Trend
         st.subheader("Sentiment Count")
         st.line_chart(df["sentiment"].value_counts())
 
-        # 5️⃣ 🔥 NEW: Rating Distribution (if exists)
+        # NEW: Rating Distribution (if exists)
         if rating_col:
             st.subheader("Rating Distribution")
             st.bar_chart(df[rating_col].value_counts())
