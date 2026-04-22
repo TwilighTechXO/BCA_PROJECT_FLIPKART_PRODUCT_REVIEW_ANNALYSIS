@@ -29,6 +29,9 @@ To ensure easy deployment and no local dependency issues, the trained model and 
 * **Dataset:**
   [The dataset used to train the model is collected from the kaggle website](https://www.kaggle.com/datasets/niraliivaghani/flipkart-product-customer-reviews-dataset?resource=download)
 
+* **Dataset:**
+  [Link of the google colab notebook](https://drive.google.com/file/d/1qpCrW-VPhkdOI_2F3jI4upWkr42Rjmru/view?usp=drive_link)
+
 This approach allows the app to run directly on platforms like Streamlit Cloud without requiring local model files.
 
 ---
