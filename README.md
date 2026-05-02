@@ -57,7 +57,7 @@ This approach allows the app to run directly on platforms like Streamlit Cloud w
   [Dashboard streamlit link](https://bcaprojectfeedbackannalysis-crow9j4bo2luvnduzfyjjn.streamlit.app/)
 
 * **QR CODE for Dashboard:**
-  <img width="196" height="196" alt="qr-code" src="https://github.com/user-attachments/assets/184219a8-8a92-43f5-aebb-d53d58f6faf8" />
+  <img width="400" height="400" alt="qr-code" src="https://github.com/user-attachments/assets/184219a8-8a92-43f5-aebb-d53d58f6faf8" />
 
 ## Dashboard Navigation & Features
 
