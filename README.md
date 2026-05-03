@@ -168,3 +168,9 @@ This makes the tool **actionable**, not just analytical.
 ## Conclusion
 
 This project combines **machine learning, data visualization, and user-centric design** to create a powerful tool for customer feedback analysis. It bridges the gap between raw data and actionable insights, making it highly useful for businesses, analysts, and decision-makers.
+
+
+
+By - Emani Likhita
+enrolment no. - 2350534270
+BCA PROJECT
