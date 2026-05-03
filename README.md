@@ -171,6 +171,6 @@ This project combines **machine learning, data visualization, and user-centric d
 
 
 
-By - Emani Likhita
-enrolment no. - 2350534270
+By - Emani Likhita - 
+enrolment no. - 2350534270 - 
 BCA PROJECT
